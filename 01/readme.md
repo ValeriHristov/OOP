@@ -1,3 +1,8 @@
+## Допълнително за четене:
+- указатели - https://boredzo.org/pointers/
+- масиви - https://stackoverflow.com/questions/4810664/how-do-i-use-arrays-in-c
+- списък с източници и книги за с++ - https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list
+
 ## Задача 1
  Реализирайте функция, която разменя стойностите на 2 променливи от тип int
  - чрез псевдоними - void swap(int& a,int& b)
