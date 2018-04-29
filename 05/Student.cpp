@@ -118,3 +118,5 @@ void Student::Print() const
 {
 	std::cout << this->GetName() << " " << this->GetFn() << "\n";
 }
+
+

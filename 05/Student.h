@@ -2,6 +2,8 @@
 
 #include "Grade.h"
 
+
+
 class Student
 {
 private:
@@ -30,3 +32,5 @@ public:
 	void Print() const;
 };
 
+
+Student operator+(Student a, Grade g);
