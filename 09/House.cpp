@@ -92,9 +92,9 @@ void House::print() const
 
 std::ostream & operator<<(std::ostream & os, const House& house)
 {
-	// Wrong! dont do it at your house!!!
+	// Wrong! Dont do it at your house!!! Endless recursion is comming!
 	// os << house
-	//	<< "Storeys count: " << house.getStoreys()
-	//	<< "Owner name: " << house.getOwnerName();
+	os << "Storeys count: " << house.getStoreys()
+	   << "Owner name: " << house.getOwnerName();
 	return os;
 }
